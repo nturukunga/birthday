@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIRTHDAY QUEEN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="section white">
+        <div class="polaroid" onclick="expandPolaroid(this)">
+            <img src="IMAGES/IMG-20240803-WA0000.jpg" alt="Placeholder">
+            <div class="caption">Contageous smile!🤭</div>
+            <div class="caption">You light up the room with that contagious smile! 😁✨</div>
+        </div>
+        <div class="polaroid" onclick="expandPolaroid(this)">
+            <img src="IMAGES/IMG-20240803-WA0001.jpg" alt="Placeholder">
+            <div class="caption">Fine Babe😍</div>
+            <div class="caption">Looking absolutely stunning, Fine Babe! 😍🔥</div>
+        </div>
+        <div class="polaroid" onclick="expandPolaroid(this)">
+            <img src="IMAGES/IMG-20240828-WA0056.jpg" alt="Placeholder">
+            <div class="caption">Smooches😘💕</div>
+            <div class="caption">Sending you all my love and smooches! 😘💕</div>
+        </div>
+        <div class="polaroid" onclick="expandPolaroid(this)">
+            <img src="IMAGES/IMG-20240831-WA0025.jpg" alt="Placeholder">
+            <div class="caption">Daktari!😂</div>
+            <div class="caption">You’ve got the cure for everything, Daktari! 😆❤️</div>
+        </div>
+    </section>
+    <section class="section light-pink">
+        <h1 class="curved-text">HAPPY BIRTHDAY</h1>
+        <div class="polaroid-container">
+            <div class="polaroid"><img src="IMAGES/IMG-20240831-WA0011.jpg" alt="Placeholder"></div>
+            <div class="text-space">Leta coke!</div>
+            <div class="polaroid"><img src="IMAGES/IMG-20241208-WA0000.jpg" alt="Placeholder"></div>
+            <div class="text-space">Moja mguu ikiwa juu😂</div>
+            <div class="polaroid"><img src="IMAGES/IMG-20240828-WA0025.jpg" alt="Placeholder"></div>
+        </div>
+    </section>
+    <section class="section light-purple">
+        <div class="large-polaroid"><img src="IMAGES/IMG-20241208-WA0001.jpg" alt="Large Placeholder"></div>
+        <div class="text-space">a smile is a constant reminder of the joy and positivity you bring into every moment. 
+    </div>
+    </section>
+
+    <div class="overlay" id="overlay">
+        <div class="expanded-polaroid">
+            <button class="close-btn" onclick="closePolaroid()">X</button>
+            <img src="" alt="Expanded Polaroid" id="expandedImage">
+            <p id="expandedCaption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
